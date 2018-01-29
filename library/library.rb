@@ -1,5 +1,7 @@
 class Library
 
+  # Library objects should contain an ARRAY of HASHES.
+
   attr_reader :catalogue
 
   def initialize(catalogue)
